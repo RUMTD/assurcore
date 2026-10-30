@@ -40,3 +40,4 @@ Ce que ça implique (positif ET négatif) — un ADR honnête assume aussi les i
 | [003](./003-base-de-donnees.md) | PostgreSQL comme base transactionnelle | Bloc 1 / Bloc 4 |
 | [004](./004-infra-as-code.md) | Terraform + Ansible pour l'infrastructure | Bloc 3 |
 | [005](./005-blockchain-audit-sinistres.md) | Traçabilité des sinistres par chaîne de hash | Bloc 3 |
+| [006](./006-choix-angular-frontend.md) | Angular comme framework frontend | Bloc 1 / Bloc 2 |

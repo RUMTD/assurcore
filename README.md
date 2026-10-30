@@ -30,7 +30,7 @@ assurcore/
 │   ├── risk-scoring-service/   (Python/FastAPI)     → scoring de risque via ML
 │   └── payment-service/        (C#/.NET)            → traitement des indemnisations
 │
-├── frontend/             → Interface web (React + TypeScript) consommée par le client final
+├── frontend/             → Interface web (Angular + TypeScript) consommée par le client final
 │
 ├── infra/
 │   ├── terraform/        → Infrastructure as Code : provisionnement des ressources cloud

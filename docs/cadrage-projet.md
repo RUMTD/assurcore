@@ -36,7 +36,7 @@ Ce projet est volontairement complet pour que **chaque brique corresponde à un 
 ```mermaid
 flowchart TB
     subgraph Client
-        WEB[Frontend Web - React]
+        WEB[Frontend Web - Angular]
     end
 
     subgraph API_GATEWAY[API Gateway]
@@ -99,7 +99,7 @@ flowchart TB
 | Service Claims (sinistres) | **Java / Spring Boot** | Idem + intégration blockchain |
 | Service Risk-Scoring | **Python / FastAPI + scikit-learn** | Écosystème data/ML le plus riche |
 | Service Payment | **C# / .NET** | Démontre la polyvalence multi-langage exigée |
-| Frontend | React + TypeScript | Standard du marché |
+| Frontend | Angular + TypeScript | Framework structuré, standard en entreprise (voir ADR-006) |
 | Base transactionnelle | PostgreSQL | Fiabilité ACID pour données financières |
 | Data Warehouse / BI | DuckDB ou PostgreSQL analytique + Metabase | Léger, facile à démontrer |
 | IaC | Terraform + Ansible | Exigé explicitement par le référentiel |

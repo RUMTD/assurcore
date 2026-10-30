@@ -28,7 +28,7 @@ flowchart TB
 
         subgraph K8S["Cluster Kubernetes"]
             subgraph NS1["Namespace: frontend"]
-                FE_POD["Pod: frontend\n(image React)"]
+                FE_POD["Pod: frontend\n(image Angular servie par Nginx)"]
             end
             subgraph NS2["Namespace: backend"]
                 AUTH_POD["Pod: auth-service\n(image Java)"]
