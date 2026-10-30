@@ -1,0 +1,10 @@
+target/
+bin/
+obj/
+node_modules/
+__pycache__/
+*.pyc
+.env
+*.tfstate
+*.tfstate.backup
+.terraform/
